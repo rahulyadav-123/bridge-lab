@@ -1,0 +1,15 @@
+rahul yadav@LAPTOP-3DMCIK61 MINGW64 ~ (master)
+$ cd Terminalcommands/
+
+rahul yadav@LAPTOP-3DMCIK61 MINGW64 ~/Terminalcommands (master)
+$ ps -eo pid,ppid,cmd,%mem,%cpu
+ps: unknown option -- o
+Try `ps --help' for more information.
+
+rahul yadav@LAPTOP-3DMCIK61 MINGW64 ~/Terminalcommands (master)
+$ ps ..
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+      299     298     299        504  pty0      197609 01:16:43 /usr/bin/bash
+      335     299     335       2972  pty0      197609 01:21:48 /usr/bin/ps
+      298       1     298      17576  ?         197609 01:16:42 /usr/bin/mintty
+

@@ -1,0 +1,11 @@
+
+rahul yadav@LAPTOP-3DMCIK61 MINGW64 ~/Terminalcommands (master)
+$ echo hello
+hello
+
+rahul yadav@LAPTOP-3DMCIK61 MINGW64 ~/Terminalcommands (master)
+$ echo $?
+0
+
+rahul yadav@LAPTOP-3DMCIK61 MINGW64 ~/Terminalcommands (master)
+$

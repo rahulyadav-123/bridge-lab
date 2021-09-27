@@ -1,0 +1,14 @@
+
+rahul yadav@LAPTOP-3DMCIK61 MINGW64 ~/Terminalcommands/linux-content (master)
+$ for file in `ls *.txt`;
+> do
+> foldername=`echo $file | awk -F. '{print $1}'`;
+> mkdir $foldername;
+> cp $files $foldername;
+> done
+
+
+rahul yadav@LAPTOP-3DMCIK61 MINGW64 ~/Terminalcommands/linux-content (master)
+$ ls
+10000  README.md  abc/  abc.txt  access.log  data.csv  ghi/  ghi.txt  linux_chit_sheet.pdf  linux_problem_sheet.pdf
+

@@ -1,0 +1,16 @@
+#!/bin/bash -x
+#folder present or not
+
+
+if [find . file *unique/];
+ then
+        echo "folder already exists";
+else
+        mkdir unique;
+fi
+
+
+
+
+
+
